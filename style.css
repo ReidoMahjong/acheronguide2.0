@@ -1,0 +1,83 @@
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    color: white;
+    font-size: 150%;
+    background-color: black;
+}
+header {
+    background-image: url(acheronheader.png);
+    background-size: cover; /* ajusta o tamanho da imagem*/
+    background-position: center; /*ajustar a posição*/
+    height: 500px; /* aumenta o cabeçalho */
+    margin-top: -40px; /*diminui o espaço entre o header e o topo do site*/
+    margin-left: -7px;
+    margin-right: -7px;
+    width: 1525px;
+    color: azure;
+    position: relative;
+}
+
+h1 {
+    color: darkgoldenrod;
+    padding: 50px;
+}
+
+.starraillogo {
+    position: absolute; /*define a posição, "absolute" coloca ela por independente da posição do lugar que foi inserida*/
+    left: 150px; /*define a posição horizontal a partir a esquerda*/
+    width: auto; /*define a largura*/
+    height: 350px; /*define a altura e proporção*/
+    padding-top: 100px; /*distância entre o objeto e o topo do header*/
+} /*definir propriedades para usar em uma imagem com class=nomedaclasse*/
+.archeronsplash {
+    position: relative;
+    height: 700px;
+    right: 60px;
+}
+#navigation {
+    background-color: rgb(140, 112, 41);
+}
+#navigation ul li {
+    list-style: none;
+    padding: 15px;
+    display: inline;
+}
+#navigation ul li a{
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+    display: inline-block;
+    transition: background .6s;
+}
+#navigation ul li a:hover {
+    background-color: black;
+    display: inline-block;
+    color: rgb(140, 112, 41);
+    
+}
+.quiz-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#pergunta {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.opcao {
+    display:inline-block;
+    margin-right: 20px;
+    margin-left: 18px;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-weight: bold;
+}
